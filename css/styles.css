@@ -69,19 +69,6 @@ body {
 
 
 /* =============hero===================== */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .hero {
     background: #2E2F42;
@@ -97,14 +84,14 @@ body {
 }
 
 .hero-buy-btn {
-    color: #FFF;
+    background-color: #4D5AE5;
+    color: #ffffff;
         font-family: Roboto, sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-         background: #4D5AE5;
-         cursor: pointer;
+         cursor: pointer;    
 }
 
 .hero-buy-btn:hover, .hero-buy-btn:focus {
@@ -135,6 +122,7 @@ color:  #434455;
 }
 
 .team-title {
+    color: #2E2F42;
         text-align: center;
         font-size: 36px;
         font-weight: 700;
@@ -143,7 +131,12 @@ color:  #434455;
         text-transform: capitalize;
 }
 
+.team-item {
+    background-color: #FFF;
+}
+
 .team-subtitle {
+    color: #2E2F42;
         text-align: center;
         font-size: 20px;
         font-weight: 500;
@@ -166,6 +159,7 @@ color:  #434455;
 
 
 .portfolio-title {
+    color:  #2E2F42;
         text-align: center;
         font-size: 36px;
         font-weight: 700;
@@ -179,6 +173,7 @@ color:  #434455;
 }
 
 .portfolio-subtitle {
+    color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
