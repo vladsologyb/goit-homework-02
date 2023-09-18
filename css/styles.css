@@ -18,7 +18,7 @@ body {
 
 
 .header-logo {
-    
+    color: #4D5AE5;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
@@ -29,11 +29,11 @@ body {
 }
 
 .logo-span {
-    color:  #4D5AE5;
+    color: #2E2F42;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
@@ -174,6 +174,10 @@ color:  #434455;
         text-transform: capitalize;
 }
 
+.portfolio-item {
+    background-color: #FFF;
+}
+
 .portfolio-subtitle {
         font-size: 20px;
         font-weight: 500;
@@ -196,21 +200,21 @@ color:  #434455;
 }
 
 .footer-logo {
-    color: #F4F4FD;
+    color: #4D5AE5;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .footer-logo-span {
-    color: #4D5AE5;
+    color: #F4F4FD;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
